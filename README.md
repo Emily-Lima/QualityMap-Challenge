@@ -101,10 +101,8 @@ Seu navegador padrão irá abrir já com os resultados dos testes e caso queira 
 
 Exemplos dos relatórios de testes:
 
-![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/8d231200-ecf6-4be7-bb35-5b2192139d6c)
+![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/678cabb5-22e8-4a07-98c2-d722c8fa9232)
 
-![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/4a40e9e4-03ef-404b-beff-ae3910164f4f)
+![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/ab711ffe-ab83-40f5-9336-ca1c4fdbdcd8)
 
-![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/9d0adb7c-25ad-4a02-9723-fb646495b9db)
-
-![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/78760954-9bb8-4cfe-bf24-50194778f521)
+![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/b4cb0886-e87c-464c-a312-1570648873b8)
