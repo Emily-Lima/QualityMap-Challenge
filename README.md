@@ -1,50 +1,52 @@
 
+
 # Desafio técnico QualityMap
 
 Esse projeto de automação de testes faz parte de um desafio técnico da empresa QualityMap para uma vaga de QA Senior.
 
-## Projeto Front-End (Website nopCommerce)
+## 🎯Projeto Front-End (Website nopCommerce)
 
 **Sobre:** É um simples sistema de e-commerce que deve ter sua tela de registro automatizada com validações de cenários de sucesso e validação de mensagens de erros.
 **Acesso:** https://demo.nopcommerce.com/
 
-## Projeto Back-End (APIs serverest)
+## 🎯Projeto Back-End (APIs serverest)
 
 **Sobre:** É um simples sistema de APIs que deve ter um cenário de automação para cada método HTTP, sendo eles POST, GET, PUT e DELETE.
-**Acesso:** https://serverest.dev
+**Acesso:** https://serverest.dev/
 
-## Embasamento técnico
+## 📚Embasamento técnico
 
 Nesse projeto, foi usado como embasamento técnico os materiais do ISTQB, “Conselho Internacional de Qualificações em Testes de Software”, sendo usado especificamente materiais de fundamentos e de automação de testes.
 
-## Abordagem de testes
+## 🔍Abordagem de testes
 
 O BDD, “Desenvolvimento Orientado a Comportamento” foi usado nesse projeto através da adoção de uma linguagem de fácil entendimento, no caso o Gherkin, dessa forma os cenários de testes foram todos escritos Gherkin para facilitar a compreensão dos testes.
 
-## Estratégia da automação
+## 🤖Estratégia da automação
 
 A automação de testes foi desenvolvida conforme as boas práticas de clean code usando um alto nível de manutenibilidade, reuso e simplicidade de código. pensando nisso foi adotada 2 estratégias diferentes na automação de testes, sendo elas:
 
-1.  **PageObjects ➞ Automação Front-End:** Foi empregado dessa forma para melhorar a abstração da interface do usuário, reusabilidade, manutenção simplificada e separação de responsabilidades.
+1.  **📌PageObjects ➞ Automação Front-End:** Foi empregado dessa forma para melhorar a abstração da interface do usuário, reusabilidade, manutenção simplificada e separação de responsabilidades.
     
-2.  **Custom Commands ➞ Automação Back-End:** Foi empregado dessa forma para melhorar a abstração de ações repetitivas, facilidade de uso, padronização de funcionalidades, legibilidade e reutilização de lógica de teste.
+2.  **📌Custom Commands ➞ Automação Back-End:** Foi empregado dessa forma para melhorar a abstração de ações repetitivas, facilidade de uso, padronização de funcionalidades, legibilidade e reutilização de lógica de teste.
 
-## Cobertura de testes
+## 📈Cobertura de testes
 
 Os testes foram projetados pensando garantir que o software funciona como esperado em 2 tipos de dispositivos, cada um com sua resolução específica, sendo elas:
 
-**Desktop:** Testes com resolução de 1920x1080.
+**💻Desktop:** Testes com resolução de 1920x1080.
 
-**Mobile:** Testes com resolução de 375x667.
+**📱Mobile:** Testes com resolução de 375x667.
 
-## Resumo dos testes
+## 📊Resumo dos testes
 
 A automação de testes está dividida em casos de sucesso e casos de falhas, cada teste é independente e pode ser executado de maneira isolada ou em conjunto, os dados apresentados abaixo são referentes a execução em conjunto.
 
-**Back-End:** 19 cenários de sucesso e 24 cenários de falhas
-**Front-End:** 14 cenários de sucesso e 24 cenários de falhas
+**💡Front-End:** 14 cenários de sucesso e 24 cenários de falhas.
 
-## Tecnologias usadas
+**🔌Back-End:** 19 cenários de sucesso e 24 cenários de falhas.
+
+## ⚙️Tecnologias usadas
 
 - **Node** - Ambiente de execução JavaScript
 
@@ -60,19 +62,24 @@ A automação de testes está dividida em casos de sucesso e casos de falhas, ca
 
 - **Java JDK 11** - Kit de Desenvolvimento Java 11
 
-## Pré-requisitos
+## 📋Pré-requisitos
 
 - Node instalado na versão v20.12.0 ou superior
 - NPM instalado na versão 10.5.0 ou superior
-- Google Chrome na versão 123.0.6312.86 ou superior
-- Java JDK 11 (Apenas se quiser ter acesso aos daskboard de testes)
+- Java JDK 11 (Apenas se quiser ter acesso aos dashboard de testes)
 
-## Passos para executar
-Faça o clone do projeto em sua maquina ou caso prefira, baixe os arquivos do projeto em sua maquina e extraia eles, depois, com o terminal aberto na pasta raiz do peojeto, execute os comandos abaixo:
+## 🚩Processos de instalação 
+Faça o clone do projeto em sua máquina ou caso prefira, baixe os arquivos do projeto em sua máquina e extraia eles e depois, com o terminal aberto na pasta raiz do projeto, execute os comandos abaixo:
 
 `npm install cypress`
+`npm install --save-dev allure-commandline`
+`npm install --save-dev @faker-js/faker`
 
-Se você quiser executar o projeto com o ambiente visual, execute o comando abaixo e depois escolha a opção Teste E2E, Chrome, clique em **frontend-testing.cy.js** para executar o projeto de front-end ou clique em **backend-testing.cy.js** para executar o projeto de back-end.
+## 🚀Passos para executar
+
+Se você quiser executar o projeto com o ambiente visual, execute o comando abaixo e depois escolha a opção E2E Testing, clique em Chrome e em seguida clique em *frontend-testing.cy.js* para executar o projeto de front-end ou clique em *backend-testing.cy.js* para executar o projeto de back-end.
+
+`npx cypress open`
 
 Se você deseja executar o projeto sem o ambiente visual, execute o seguinte comando:
 
@@ -86,10 +93,18 @@ Execute os comandos:
 
 e depois
 
-`allure serve`
+`npx allure serve`
 
-Seu navegador padrão irá abrir já com os resultados dos testes e caso queira limpar o historico do teste anterior, você pode executar o seguinte comando:
+Seu navegador padrão irá abrir já com os resultados dos testes e caso queira limpar o histórico do teste anterior você deve executar o seguinte comando:
 
 `npm run clear`
 
-Exemplos dos relatorios de testes:
+Exemplos dos relatórios de testes:
+
+![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/8d231200-ecf6-4be7-bb35-5b2192139d6c)
+
+![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/4a40e9e4-03ef-404b-beff-ae3910164f4f)
+
+![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/9d0adb7c-25ad-4a02-9723-fb646495b9db)
+
+![image](https://github.com/Emily-Lima/QualityMap-Challenge/assets/111673766/78760954-9bb8-4cfe-bf24-50194778f521)
